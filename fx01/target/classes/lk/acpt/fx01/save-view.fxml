@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.acpt.fx01.SaveController">
+   <children>
+      <Text layoutX="202.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Save Form">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="textid" layoutX="166.0" layoutY="106.0" prefHeight="25.0" prefWidth="254.0" promptText="Enter Book Id" />
+      <TextField fx:id="textname" layoutX="166.0" layoutY="150.0" prefHeight="25.0" prefWidth="254.0" promptText="Enter Book Name" />
+      <TextField fx:id="textsin" layoutX="166.0" layoutY="188.0" prefHeight="25.0" prefWidth="254.0" promptText="Enter Book SIN" />
+      <TextField fx:id="textqty" layoutX="166.0" layoutY="234.0" prefHeight="25.0" prefWidth="254.0" promptText="Enter QTY" />
+      <TextField fx:id="textprice" layoutX="166.0" layoutY="278.0" prefHeight="25.0" prefWidth="254.0" promptText="Enter Price" />
+      <Button layoutX="175.0" layoutY="329.0" mnemonicParsing="false" onAction="#save" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: blue;" text="Save" textFill="#fcf6f6" />
+      <Button layoutX="360.0" layoutY="329.0" mnemonicParsing="false" onAction="#cancel" style="-fx-background-color: red;" text="Cancel" textFill="#ebe9e9" />
+   </children>
+</AnchorPane>
